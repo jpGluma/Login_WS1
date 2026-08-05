@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* para ni sa unod sang Dashboard */
+body {
+    font-family: Arial, sans-serif;
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+}
+/*ari para sa unod sang nav */
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-bottom: 25px;
+}
+/*ari sa text sang nav*/
+nav a {
+    text-decoration: none;
+    color: white;
+    background: lightskyblue;
+    padding: 10px 18px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+/*ari sa para naman ni sya sa dashboard container */
+.Dashboard-container {
+    width: 500px;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px black;
+    text-align: center;
+}
+/*ari naman para ni sya sa title */
+.Dashboard-container h2 {
+    margin-bottom: 20px;
+    color: black;
+}
+/*ari sa background sang text*/
+nav a:hover {
+    background: white;
+}
