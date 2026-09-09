@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #dbeafe, #eff6ff);
+    color: #1f2937;
+}
+.registerform {
+    width: 380px;
+    max-width: 90%;
+    background: #ffffff;
+    padding: 35px;
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12);
+    text-align: center;
+}
+.registerform input {
+    width: 100%;
+    padding: 13px 15px;
+    margin-bottom: 15px;
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
+    background: #f9fafb;
+    color: #111827;
+    font-size: 15px;
+    outline: none;
+    transition:
+        border-color 0.3s ease,
+        box-shadow 0.3s ease,
+        background 0.3s ease;
+}
+.registerform input::placeholder {
+    color: #9ca3af;
+}
+.registerform input:focus {
+    background: #ffffff;
+    border-color: #3b82f6;
+    box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.15);
+}
+.registerform button {
+    width: 100%;
+    padding: 13px;
+    margin-top: 5px;
+    background: #3b82f6;
+    color: #ffffff;
+    border: none;
+    border-bottom: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition:
+        background 0.3s ease,
+        transform 0.2s ease,
+        box-shadow 0.3s ease;
+}
+.registerform button:hover {
+    background: #2563eb;
+    box-shadow: 0 5px 15px rgba(37, 99, 235, 0.3);
+    transform: translateY(-1px);
+}
+.registerform button:active {
+    transform: translateY(0);
+}
+
+body > p {
+    margin-top: 18px;
+    font-size: 14px;
+    color: #6b7280;
+    text-align: center;
+}
+
+body > p a {
+    color: #2563eb;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+body > p a:hover {
+    color: #1d4ed8;
+    text-decoration: underline;
+}
+
+@media (max-width: 480px) {
+    body {
+        padding: 20px;
+    }
+    .registerform {
+        width: 100%;
+        max-width: 380px;
+        padding: 25px;
+    }
+    .registerform input {
+        font-size: 14px;
+        padding: 12px;
+    }
+    .registerform button {
+        font-size: 15px;
+    }
+}
