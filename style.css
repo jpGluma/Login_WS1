@@ -1,0 +1,82 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+/* ari para ma center ang content */
+body {
+    font-family: Arial,sans-serif;
+    background: white;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+}
+h2 {
+    margin-bottom:20px;
+    color: black;
+}
+/* ari nga function para sa form layout */
+.loginform {
+    display:flex;
+    flex-direction: column;
+}
+/* para sa akon title */
+
+/* ari para sa login box */
+div {
+    background: white;
+    widows:320px;
+    padding:30px;
+    border-radius:10px;
+    box-shadow:0 0 10px black;
+    text-align: center;
+}
+
+/* ari naman para sa mga input fields */
+.loginform input {
+    width:100%;
+    padding:15px;
+    margin-bottom:15px;
+    border: 1px solid black;
+    border-radius:5px;
+    font-size:15px ;
+}
+/* para ni sya sa login button */
+.loginform button {
+    width: 100%;
+    padding: 10px;
+    background: limegreen;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* para sa button para mag link */
+.loginform button a {
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+
+/* ano ni sya ng sa hover effect */
+.loginform button:hover {
+    background-color: limegreen;
+}
+
+/* para ni sa register text */
+p {
+    position: relative;
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+p a{
+    color: deepskyblue;
+    text-decoration: none;
+    font-weight: bold;
+}
+p a :hover{
+    text-decoration: underline;
+}
