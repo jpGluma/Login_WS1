@@ -8,6 +8,11 @@ body{
     font-family: Arial, sans-serif;
     color: #333;
 }
+main{
+    margin-top: 70px;
+    margin-left: 250px;
+    padding: 20px;
+}
 h1{
     color: white;
     padding: 20px;
@@ -16,6 +21,7 @@ h1{
 }
 
 nav{
+    margin-top: 10px;
     background-color: #172554;
     position: fixed;
     top: 70px;
@@ -25,6 +31,9 @@ nav{
     min-height: calc(100vh-70px);
 
 }
+section students, teachers, classes{
+    margin-top: 30px;
+}   
 nav a{
     color: white;
     text-decoration: none;
