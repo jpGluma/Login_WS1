@@ -4,32 +4,63 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>School Admin</title>
-    <link rel="stylesheet"  href="dashboard.css">
+    <link rel="stylesheet" href="dashboard.css">
 </head>
-
 <body>
-    <h1>School Admin</h1>
+
+    <header>
+        <h1>School Admin</h1>
+    </header>
 
     <nav>
-        <a href="#">Dashboard</a> |
-        <a href="#">Students</a> |
-        <a href="#">Teachers</a> |
-        <a href="#">Classes</a> |
-        <a href="#">Attendance</a> |
-        <a href="./index.html">Logout</a>
+        <a href="#dashboard">Dashboard</a>
+        <a href="#students">Students</a>
+        <a href="#teachers">Teachers</a>
+        <a href="#classes">Classes</a>
+        <a href="index.html">Logout</a>
     </nav>
-    <hr>
-    <h2>Dashboard</h2>
-    <h3>Students</h3>
-    <p>850 students</p>
-    <h3>Teachers</h3>
-    <p>45 teachers</p>
-    <h3>Classes</h3>
-    <p>32 classes</p>
-    <h3>Attendance</h3>
-    <p>812 students present today</p>
-    <hr>
-    <h2>Recent Students</h2>
+
+    <main>
+        <section id="dashboard">
+            <h2>Dashboard</h2>
+
+            <div class="cards">
+                <div class="card">
+                    <h3>Students</h3>
+                    <p>850 students</p>
+                </div>
+
+                <div class="card">
+                    <h3>Teachers</h3>
+                    <p>45 teachers</p>
+                </div>
+
+                <div class="card">
+                    <h3>Classes</h3>
+                    <p>32 classes</p>
+                </div>
+
+            </div>
+        </section>
+        
+        <section id="students">
+            <h2>Students</h2>
+            <p>John - Grade 10</p>
+            <p>josh - Grade 9</p>
+        </section>
+
+        <section id="teachers">
+            <h2>Teachers</h2>
+            <p>jhon</p>
+            <p>jose</p>
+        </section>
+
+        <section id="classes">
+            <h2>Classes</h2>
+            <p>Grade 7 - Section A</p>
+            <p>Grade 8 - Section B</p>
+        </section>
+    </main>
 
 </body>
 </html>
